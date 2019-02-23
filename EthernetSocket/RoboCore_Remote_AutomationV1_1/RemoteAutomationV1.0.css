@@ -1,0 +1,84 @@
+/* 
+    Document   : RemoteAutomationV1.0
+    Created on : Mar 7, 2013, 10:19:46 PM
+    Author     : paulo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 530px;
+    height: 600px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        background: url(logo2.png) no-repeat left 100px;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+        font-family: arial;
+}
+
+div.rele_ligado {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(modulo_rele_on.png) no-repeat left top;
+}
+
+div.rele_desligado {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(modulo_rele.png) no-repeat 0 center;
+}
+
+#botao{
+    position: absolute;
+    right: 30px;
+    top: 330px;
+}
+
+.botao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+        width: 200px;
+        text-align: center;
+}.botao:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.botao:active {
+	position:relative;
+	top:1px;
+}
